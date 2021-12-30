@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+          box-sizing: border-box;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.header-btn{
+    color: white;
+}
+.my-header{
+    font-weight: bold;
+}
+.landing-page{
+    /* background: url(https://images.unsplash.com/photo-1571193161738-deaba9b6cc26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1345&q=80); */
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1571193161738-deaba9b6cc26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1345&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.header-center{
+    padding-top: 30vh;
+}
+.uppercase-text{
+    text-transform: uppercase;
+}
+.card-overlay{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+}
+.center-card{
+    width: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-card-logo{
+    width: 50%;
+}
+.section-header{
+    font-size: 200%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+.about-me-img{
+    width: 200px;
+    opacity: .9;
+}
+.contact-card-logo{
+    width: 60px
+}
+.contact-card{
+    box-shadow: 0 0 10px grey;
+}
+.about-img{
+    box-shadow: 15px 15px;
+    color: red;
+
+}
+.footer-icon{
+    width: 35px;
+}
+.footer-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
