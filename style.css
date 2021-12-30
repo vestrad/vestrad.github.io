@@ -1,38 +1,93 @@
-*,
-*::before,
-*::after {
-          box-sizing: border-box;
+@media(min-width: 768px){
+    .sev-logos{
+        width: 100%;
+    }
 }
-.nav-link{
+@media(max-width: 768px){
+    .sev-logos{
+        width: 75%;
+    }
+}
+.header {
+  background: url(https://traversydemo.com/img/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.green-text {
+  color: #00ed82;
+  font-size: 12px;
+  font-weight: bold;
+}
+.header-text-1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.header-hulu-logo {
+  width: 200px;
+}
+.log-in-button {
+  font-weight: bold;
+  font-size: 14px;
+}
+.my-nav {
+  float: right;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+.header-start-free-trial {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 15px 15px;
+}
+.header-subscribers-only {
+  font-size: 10px;
+}
+.get-bundle {
+  background: linear-gradient(
+    318.68deg,
+    #0f495c 0%,
+    #0d3640 49.72%,
+    #08141f 100%
+  );
+}
+.capitalize-text{
     text-transform: uppercase;
-    color: white;
-    font-size: 11px;
+}
+.bold-text{
     font-weight: bold;
 }
-.header-btn{
-    color: white;
+.white-link{
+    color: whitesmoke;
+    font-size: 14px;
 }
-.my-header{
+/* .text-left{
+    text-align: start;
+} */
+.bundle-button{
+    border: 2px solid #fff;
+    color: white;
+    padding: 15px 25px;
     font-weight: bold;
 }
-.landing-page{
-    /* background: url(https://images.unsplash.com/photo-1571193161738-deaba9b6cc26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1345&q=80); */
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1571193161738-deaba9b6cc26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1345&q=80");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+.bundle-button:hover {
+    color: #fff;
+    border-color: #ccc;
 }
-.header-center{
-    padding-top: 30vh;
+.bg-black  {
+    background-color: black;
+
 }
-.uppercase-text{
-    text-transform: uppercase;
+.sub-text{
+    font-size: 20px;
+    color: white;
 }
-.card-overlay{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-    background-size: cover;
-    background-position: center;
-    text-align: left;
+.cover-card{
+    width: 250px;
 }
 .center-card{
     width: 275px;
@@ -40,34 +95,16 @@
     margin-left: auto;
     margin-right: auto;
 }
-.services-card-logo{
-    width: 50%;
+.card-img{
+    opacity: .5;
 }
-.section-header{
-    font-size: 200%;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    
+.text-left{
+    text-align: start;
 }
-.about-me-img{
-    width: 200px;
-    opacity: .9;
+footer ul{
+    list-style-type: none;
 }
-.contact-card-logo{
-    width: 60px
-}
-.contact-card{
-    box-shadow: 0 0 10px grey;
-}
-.about-img{
-    box-shadow: 15px 15px;
-    color: red;
+footer{
+    background-color: #ebedf2;
 
-}
-.footer-icon{
-    width: 35px;
-}
-.footer-title{
-    font-size: 2rem;
-    font-weight: bold;
 }

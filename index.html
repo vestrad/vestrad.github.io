@@ -1,328 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+        crossorigin="anonymous"
+        />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        />
+        <link
+        href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title></title>
+    </head>
+    <body>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <title></title>
-</head>
-
-<body>
-
-
-    <div class="landing-page">
-        <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ms-auto">
-        <div class="container">
-            <a href="#" class="navbar-brand"><span class="text-danger">S</span>HAIF <span class="text-danger">A</span>RFAN</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-    <!-- Header -->
-    <header class="p-5 my-header">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md text-light header-center lead">
-                    <h1>Hello,</h1>
-                    <h1>My Name is</h1>
-                    <h1 text-danger>Arfan</h1>
-                    <button class="btn btn-lg btn-outline-danger header-btn">
-                        PORTFOLIO
-                    </button>
+        <!-- Header and NavBar -->
+        <header class="header">
+            <nav class=" text-light navbar">
+                <div class="container my-nav">
+                    <button class="btn text-light log-in-button">LOG IN</button>
                 </div>
-
-            </div>
-        </div>
-    </header>
-    </div>
-    <!-- End Header -->
-
-    <!-- Services -->
-    <section class="p-5 text-center container">
-        <h1 class="lead uppercase-text section-header">
-            services
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perferendis delectus nisi dignissimos officiis aliquid incidunt hic accusantium iusto possimus!
-        </p>
+            </nav>
+    
+            <section class="p-5 text-center text-light">
+                <div class="container">
+                    <p class="green-text lead">TRY UP TO ONE MONTH FREE</p>
+                    <img class="header-hulu-logo mb-4" src="https://traversydemo.com/img/logo.png" alt="hulu">
+                    <div class="header-text-1 mb-4">Watch thousands of TV shows and movies.</div>
+                    <button class="btn btn-light header-start-free-trial mb-3">START YOUR FREE TRIAL</button>
+                    <p class="header-subscribers-only mb-5">Free trial for new &amp; eligible returning subscribers only.</p>
+                    <div class="pb-5"> </div>
+                </div>
+            </section>
+        </header>
 
 
 
-        <div class="row">
 
-            <!-- Single Card -->
-            <div class="col-md-3 g-1 mb-5 center-card">
-                <div class="card text-light bg-light mb-3 card-overlay" style="max-width: 18rem;">
-                    <!-- <div class="card-header">Header</div> -->
-                    <div class="card-body p-5">
-                        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-gear-512.png" alt="" class="rounded-circle services-card-logo">
-                        <h5 class="card-title font-weight-bold uppercase-text">Web Design</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, magni error. Provident
-                            nostrum odio corrupti, eveniet facere quidem neque qui.</p>
+
+
+
+
+
+
+
+        <!-- Get Bundle -->
+        <section class="text-center text-light p-5 get-bundle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md sev-logos center">
+                        <img class=" mb-2 sev-logos center" src="logos.png" alt="">
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <p class="green-text lead mb-2">BUNDLE WITH ANY HULU PLAN &amp; SAVE</p>
+                        <h3>Get Hulu, Disnery&plus;, and ESPN&plus;</h3>
+                        <a class="lead white-link mb-5" href="#">Details</a>
+                    </div>
+                    <div class="col-md p-3">
+                        <button class="btn btn-outline-secondary capitalize-text bundle-button">get bundle</button>
+                        <br>
+                        <a class="lead white-link" href="#">Terms apply</a>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Single Card -->
-            <div class="col-md-3 g-1 mb-5 center-card">
-                <div class="card text-light bg-light mb-3 card-overlay" style="max-width: 18rem;">
-                    <!-- <div class="card-header">Header</div> -->
-                    <div class="card-body p-5">
-                        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-gear-512.png" alt="" class="rounded-circle services-card-logo">
-                        <h5 class="card-title font-weight-bold uppercase-text">Web Design</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, magni error. Provident
-                            nostrum odio corrupti, eveniet facere quidem neque qui.</p>
+
+
+
+
+
+
+
+
+
+        <!-- INCLUDED IN ALL PLANS -->
+        <section class="p-5 bg-black text-center">
+            <div class="container">
+                <h5 class="green-text lead capitalize-text">Included in all plans</h4>
+                <h1 class="text-light">All The TV You Love</h1>
+                <div class="sub-text mb-5">
+                    Stream full seasons of exclusive series, current-season episodes, hit
+                    movies, Hulu Originals, kids shows, and more.
+                </div>
+                <div class="row">
+
+                    <!-- Cover 1 -->
+                    <div class="col-md-3  g-1 center-card mb-5">
+                        <div class="card bg-dark text-white cover-card">
+                            <img src="https://traversydemo.com/img/cover-1.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay text-left">
+                              <h5 class="card-title">Past &amp; Current Seasons</h5>
+                              <h3 class="card-text">TV Shows</h3>
+                            </div>
+                          </div>
                     </div>
+
+                    <!-- Cover 2 -->
+                    <div class="col-md-3 g-1 mb-5 center-card">
+                        <div class="card bg-dark text-white cover-card">
+                            <img src="https://traversydemo.com/img/cover-2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay text-left">
+                              <h5 class="card-title">New &amp; Classics</h5>
+                              <h3 class="card-text">Movies</h3>
+                            </div>
+                          </div>
+                    </div>
+
+
+                    <!-- Cover 3 -->
+                    <div class="col-md-3 g-1 mb-5 center-card">
+                        <div class="card bg-dark text-white cover-card">
+                            <img src="https://traversydemo.com/img/cover-3.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay text-left">
+                              <h5 class="card-title">Groundbreaking</h5>
+                              <h3 class="card-text">Hulu Originals</h3>
+                            </div>
+                          </div>
+                    </div>
+
+                    <!-- Cover 4 -->
+                    <div class="col-md-3 g-1 mb-5 center-card">
+                        <div class="card bg-dark text-white cover-card">
+                            <img src="https://traversydemo.com/img/cover-4.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay text-left">
+                              <h5 class="card-title">Add-On</h5>
+                              <h3 class="card-text">Premiums</h3>
+                            </div>
+                          </div>
+                    </div>
+
+
                 </div>
             </div>
+        </section>
 
-            <!-- Single Card -->
-            <div class="col-md-3 g-1 mb-5 center-card">
-                <div class="card text-light bg-light mb-3 card-overlay" style="max-width: 18rem;">
-                    <!-- <div class="card-header">Header</div> -->
-                    <div class="card-body p-5">
-                        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-gear-512.png" alt="" class="rounded-circle services-card-logo">
-                        <h5 class="card-title font-weight-bold uppercase-text">Web Design</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, magni error. Provident
-                            nostrum odio corrupti, eveniet facere quidem neque qui.</p>
+
+
+
+
+
+
+
+
+
+        <!-- Footer -->
+        <footer class="p-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <ul>
+                            <li class="capitalize-text bold-text">
+                                browse
+                            </li>
+                            <li>Streaming Library</li>
+                            <li>Live TV</li>
+                            <li>Live News</li>
+                            <li>Live Sports</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="col-md-3 g-1 mb-5 center-card">
-                <div class="card text-light bg-light mb-3 card-overlay" style="max-width: 18rem;">
-                    <!-- <div class="card-header">Header</div> -->
-                    <div class="card-body p-5">
-                        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-gear-512.png" alt="" class="rounded-circle services-card-logo">
-                        <h5 class="card-title font-weight-bold uppercase-text">Web Design</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, magni error. Provident
-                            nostrum odio corrupti, eveniet facere quidem neque qui.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
-    </section>
-    <!-- End Services -->
-
-    <!-- Recent Projects -->
-    <div class="section p-5 text-light">
-        <div class="container">
-            <div class="lead section-header text-center text-dark">Recent <span class="text-danger">projects</span></div>
-            <div class="row">
-                <!-- Single Project -->
-                <div class="col-md-6 mb-5">
-                    <div class="card bg-dark">
-                        <div class="card-body ">
-                          <h2 class="card-title">Project 1</h2>
-                          <p class="card-text font-weight-bold mb-0"><strong>Coding is love</strong></p>
-                          <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorem dignissimos accusamus dolores quidem distinctio dolore culpa in rerum. Ex.</p>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1501618669935-18b6ecb13d6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1449&q=80" class="card-img-bottom" alt="...">
-                      </div>
-                </div>
-                <!-- End -->
-
-                <!-- Single Project -->
-                <div class="col-md-6 mb-5">
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                          <h2 class="card-title">Project 2</h2>
-                          <p class="card-text font-weight-bold mb-0"><strong>Coding is love</strong></p>
-                          <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorem dignissimos accusamus dolores quidem distinctio dolore culpa in rerum. Ex.</p>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1501618669935-18b6ecb13d6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1449&q=80" class="card-img-bottom" alt="...">
-                      </div>
-                </div>
-                <!-- End -->
-
-                <!-- Single Project -->
-                <div class="col-md-6 mb-5">
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                          <h2 class="card-title">Project 3</h2>
-                          <p class="card-text font-weight-bold mb-0"><strong>Coding is love</strong></p>
-                          <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorem dignissimos accusamus dolores quidem distinctio dolore culpa in rerum. Ex.</p>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1501618669935-18b6ecb13d6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1449&q=80" class="card-img-bottom" alt="...">
-                      </div>
-                </div>
-                <!-- End -->
-
-                <!-- Single Project -->
-                <div class="col-md-6 mb-5">
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                          <h2 class="card-title">Project 4</h2>
-                          <p class="card-text font-weight-bold mb-0"><strong>Coding is love</strong></p>
-                          <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorem dignissimos accusamus dolores quidem distinctio dolore culpa in rerum. Ex.</p>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1501618669935-18b6ecb13d6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1449&q=80" class="card-img-bottom" alt="...">
-                      </div>
-                </div>
-                <!-- End -->
-
-                <!-- Single Project -->
-                <div class="col-md-6 mb-5">
-                    <div class="card bg-dark">
-                        <div class="card-body ">
-                          <h2 class="card-title">Project 5</h2>
-                          <p class="card-text font-weight-bold mb-0"><strong>Coding is love</strong></p>
-                          <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorem dignissimos accusamus dolores quidem distinctio dolore culpa in rerum. Ex.</p>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1501618669935-18b6ecb13d6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1449&q=80" class="card-img-bottom" alt="...">
-                      </div>
-                </div>
-                <!-- End -->
-            </div>
-        </div>
-    </div>
-    <!-- End My Projects -->
-
-    <!-- About Me -->
-    <section class="text-center mb-5">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md about-me-description">
-                    <div class="lead section-header mb-2">
-                        about <span class="text-danger">me</span>
-                    </div>
-                    <h5 class="text-capitalize">Front End Web Developer</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio autem perferendis veritatis sit sint assumenda, obcaecati voluptate? Tenetur non, cupiditate repellendus enim deserunt autem ab nam impedit quaerat sint commodi, ratione facilis. Inventore non ad dolore saepe impedit praesentium ex totam, molestiae perferendis quas vel corporis delectus modi rem quis.
-                    </p>
-                    <button class="mb-4 btn btn-outline-danger text-uppercase">
-                        download resume
-                    </button>
                     
-                </div>
-                <div class="col-md about-me-img center-card">
-                    <img class="about-me-img about-img" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHNob3R8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60" alt="">
-                
-                </div>
-            </div></div>
-    </section>
-
-
-    <!-- Contact Me -->
-    <div class="section text-center">
-        <div class="container">
-            <h1 class="section-header">
-                contact <span class="text-uppercase text-danger">info</span>
-            </h1>
-            <div class="row align-items-center justify-content-between">
-                <!-- First Card -->
-                <div class="col-md mb-5 center-card">
-                    <div class="card contact-card" style="width: 18rem;">
-                        <div class="card-body">
-                            <img src="https://img.icons8.com/bubbles/50/000000/phone--v1.png" alt="" class="rounded-circle services-card-logo contact-card-logo">
-
-                          <h5 class="card-title">Phone</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">+1 123 456 7890</h6>
-                          <h6 class="card-subtitle mb-2 text-muted">+1 123 456 7890</h6>
-
-                        </div>
-                      </div>
-                </div>
-
-                <!-- Second Card -->
-                <div class="col-md mb-5 center-card">
-                    <div class="card contact-card" style="width: 18rem;">
-                        <div class="card-body">
+                    <div class="col-md">
+                        <ul>
                             
-                            
-                            <img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-email-notifications-justicon-flat-justicon.png" alt="" class="rounded-circle services-card-logo contact-card-logo">
+                            <li>TV Shows</li>
+                            <li>Movies</li>
+                            <li>Originals</li>
+                            <li>Networks</li>
+                            <li>Kids</li>
+                            <li>FX on Hulu</li>
+                        </ul>
+                    </div>
 
-                          <h5 class="card-title">Email</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">info@gamail.com</h6>
-                          <h6 class="card-subtitle mb-2 text-muted">about@gamail.com</h6>
-
-                        </div>
-                      </div>
-                </div>
-
-                <!-- Third Card -->
-                <div class="col-md mb-5 center-card">
-                    <div class="card contact-card" style="width: 18rem;">
-                        <div class="card-body">
-                            
-                            <img src="https://img.icons8.com/fluency/64/000000/cottage.png" alt="" class=" services-card-logo contact-card-logo">
-
-                          <h5 class="card-title">Address</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">United States</h6>
-                          <h6 class="card-subtitle mb-2 text-muted">Mexico</h6>
-
-                        </div>
-                      </div>
+                    <div class="col-md">
+                        <ul>
+                            <li>Hulu, Disney+, and ESPN+</li>
+                            <li>Disney Bundle</li>
+                            <li>HBO Max</li>
+                            <li>Cinimax</li>
+                            <li>Showtime</li>
+                            <li>STARZ</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md">
+                        <ul>
+                            <li class="capitalize-text bold-text">
+                                HELP
+                            </li>
+                            <li>Account & Billing</li>
+                            <li>Plans & Pricing</li>
+                            <li>Supported Devices</li>
+                            <li>Accesibility</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md">
+                        <ul>
+                            <li class="capitalize-text bold-text">
+                                ABOUT US
+                            </li>
+                            <li>Press</li>
+                            <li>Jobs</li>
+                            <li>Live News</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-
-
-
-
-    <!-- Footer -->
-    <footer class="footer p-5 bg-dark text-light text-center">
-        <div class="footer-items mb-3">
-            <h1 class="text-uppercase lead footer-title"><span class="text-danger">S</span>haif <span class="text-danger">a</span>rfan</h1>
-            <p class="footer-subtitle text-capitalize">
-                your complete web solution
-            </p>
-            <img class="footer-icon" src="https://img.icons8.com/office/48/000000/facebook-new.png"/>
-            <img class="footer-icon" src="https://img.icons8.com/office/48/000000/facebook-new.png"/>
-            <img class="footer-icon" src="https://img.icons8.com/office/48/000000/facebook-new.png"/>
-            <img class="footer-icon" src="https://img.icons8.com/office/48/000000/facebook-new.png"/>
-        </div>
-        <div class="footer-copyright">
-            Copyright 2020 Vestrad. All rights reserved.
-        </div>
-    </footer>
-
-
-
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-</body>
-
+        </footer>
+        
+        <!-- Scripts -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
