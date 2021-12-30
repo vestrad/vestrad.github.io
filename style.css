@@ -1,110 +1,11 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
 @media(min-width: 768px){
-    .sev-logos{
-        width: 100%;
+    .news-input{
+        width: 50%;
     }
-}
-@media(max-width: 768px){
-    .sev-logos{
-        width: 75%;
-    }
-}
-.header {
-  background: url(https://traversydemo.com/img/header.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.green-text {
-  color: #00ed82;
-  font-size: 12px;
-  font-weight: bold;
-}
-.header-text-1 {
-  font-size: 22px;
-  font-weight: bold;
-}
-.header-hulu-logo {
-  width: 200px;
-}
-.log-in-button {
-  font-weight: bold;
-  font-size: 14px;
-}
-.my-nav {
-  float: right;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-  }
-.header-start-free-trial {
-  font-size: 15px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  padding: 15px 15px;
-}
-.header-subscribers-only {
-  font-size: 10px;
-}
-.get-bundle {
-  background: linear-gradient(
-    318.68deg,
-    #0f495c 0%,
-    #0d3640 49.72%,
-    #08141f 100%
-  );
-}
-.capitalize-text{
-    text-transform: uppercase;
-}
-.bold-text{
-    font-weight: bold;
-}
-.white-link{
-    color: whitesmoke;
-    font-size: 14px;
-}
-/* .text-left{
-    text-align: start;
-} */
-.bundle-button{
-    border: 2px solid #fff;
-    color: white;
-    padding: 15px 25px;
-    font-weight: bold;
-}
-.bundle-button:hover {
-    color: #fff;
-    border-color: #ccc;
-}
-.bg-black  {
-    background-color: black;
-
-}
-.sub-text{
-    font-size: 20px;
-    color: white;
-}
-.cover-card{
-    width: 250px;
-}
-.center-card{
-    width: 275px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.card-img{
-    opacity: .5;
-}
-.text-left{
-    text-align: start;
-}
-footer ul{
-    list-style-type: none;
-}
-footer{
-    background-color: #ebedf2;
-
 }
