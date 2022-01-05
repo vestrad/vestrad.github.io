@@ -12,6 +12,12 @@
     }
 }
 
+@media (min-width:600px) {
+    .showcase_title{
+        font-size: 1.875rem;
+    }
+}
+
 /* Navbar */
 .nav-trans{
     background-color: transparent;
@@ -28,7 +34,7 @@
     width: max-content;
     background-color: #007EA7;
     margin: auto;
-    font-size: 30px;
+    /* font-size: 30px; */
     color: white;
     padding-left: 5px;
     padding-right: 5px;
@@ -42,12 +48,12 @@ margin-top: 10vh;
 }
 .showcase_contact{
     background-color: #00A8E8;
-    font-size: 30px;
+    /* font-size: 30px; */
     color: white;
 
 }
 .showcase{
-    background-image: url(https://images.unsplash.com/photo-1542628682-88321d2a4828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-image: url(landing_background.png);
     background-size: cover;
     height: 100vh;
 }
@@ -55,8 +61,9 @@ margin-top: 10vh;
 /* Servicios */
 
 .general_icon{
-    width: 60px;
+    width: 100px;
     height: auto;
+    margin: auto;
 }
 .general-paragraph{
     font-size: 30px;
@@ -65,12 +72,30 @@ margin-top: 10vh;
 /* Precios */
 .precios{
     background-color: #007EA7;
+    padding-bottom: 2em;
 }
 
 /* Precios */
 .precios_rounded_box{
     background-color: white;
     border-radius: 73px;
-    width: 50vw;
+    width: 37vw;
     margin: auto;
+    /* margin-bottom: 10em; */
+}
+
+.precios_icon{
+    padding-top: 2em;
+}
+
+@media (min-width:300px) {
+    .precios_rounded_box{
+        width: 80vw;
+    }
+}
+
+@media (min-width:600px) {
+    .precios_rounded_box{
+        width: 37vw;
+    }
 }
