@@ -18,9 +18,14 @@
     }
 }
 
+.my_title{
+    font-size: 2rem;
+    padding-top: 1em;
+}
 /* Navbar */
-.nav-trans{
-    background-color: transparent;
+.nav-color{
+    /* background-color: #007EA7; */
+    background-color: black;
 }
 
 /* Showcase */
