@@ -3,9 +3,21 @@
 *::after {
           box-sizing: border-box;
 }
+
+/* General */
+
+@media (min-width:300px) {
+    .showcase_title{
+        font-size: 1rem;
+    }
+}
+
+/* Navbar */
 .nav-trans{
     background-color: transparent;
 }
+
+/* Showcase */
 .showcase_box_title{
     margin-top: 30vh;
 }
@@ -39,13 +51,14 @@ margin-top: 10vh;
     background-size: cover;
     height: 100vh;
 }
+
 /* Servicios */
 
-.servicios_icon{
+.general_icon{
     width: 60px;
     height: auto;
 }
-.servicios-paragraph{
+.general-paragraph{
     font-size: 30px;
 }
 
@@ -53,16 +66,11 @@ margin-top: 10vh;
 .precios{
     background-color: #007EA7;
 }
-/* General */
-.my_title{
 
-}
-
-
-
-
-@media (min-width:300px) {
-    .showcase_title{
-        font-size: 1rem;
-    }
+/* Precios */
+.precios_rounded_box{
+    background-color: white;
+    border-radius: 73px;
+    width: 50vw;
+    margin: auto;
 }
