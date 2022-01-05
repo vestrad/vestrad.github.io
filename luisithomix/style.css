@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+          box-sizing: border-box;
+}
+.nav-trans{
+    background-color: transparent;
+}
+.showcase_box_title{
+    margin-top: 30vh;
+}
+.showcase_title{
+    border: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: max-content;
+    background-color: #007EA7;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.showcase_box_contact{
+margin-top: 10vh;
+}
+.showcase_contact{
+    background-color: #00A8E8;
+    font-size: 30px;
+    color: white;
+
+}
+.showcase{
+    background-image: url(https://images.unsplash.com/photo-1542628682-88321d2a4828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    height: 100vh;
+}
