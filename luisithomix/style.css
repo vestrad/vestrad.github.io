@@ -66,9 +66,11 @@ margin-top: 10vh;
 /* Servicios */
 
 .general_icon{
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 50px;
     margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .general-paragraph{
     font-size: 30px;
@@ -91,7 +93,7 @@ margin-top: 10vh;
 }
 
 .precios_icon{
-    padding-top: 2em;
+    margin-top: 2em;
 }
 
 @media (min-width:300px) {
