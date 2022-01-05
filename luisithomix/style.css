@@ -43,6 +43,7 @@ margin-top: 10vh;
 
 .servicios_icon{
     width: 60px;
+    height: auto;
 }
 .servicios-paragraph{
     font-size: 30px;
