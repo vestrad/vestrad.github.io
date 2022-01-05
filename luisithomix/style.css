@@ -39,3 +39,20 @@ margin-top: 10vh;
     background-size: cover;
     height: 100vh;
 }
+/* Servicios */
+
+.servicios_icon{
+    width: 60px;
+}
+.servicios-paragraph{
+    font-size: 30px;
+}
+
+/* Precios */
+.precios{
+    background-color: #007EA7;
+}
+/* General */
+.my_title{
+
+}
