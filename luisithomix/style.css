@@ -21,6 +21,7 @@
 .my_title{
     font-size: 2rem;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 /* Navbar */
 .nav-color{
@@ -84,7 +85,7 @@ margin-top: 10vh;
 }
 
 /* Precios */
-.precios_rounded_box{
+.rounded_box{
     background-color: white;
     border-radius: 73px;
     width: 37vw;
@@ -97,13 +98,63 @@ margin-top: 10vh;
 }
 
 @media (min-width:300px) {
-    .precios_rounded_box{
+    .rounded_box{
         width: 80vw;
     }
 }
 
 @media (min-width:600px) {
-    .precios_rounded_box{
+    .rounded_box{
         width: 37vw;
     }
+}
+
+/* Tiempos */
+
+.tiempos{
+    padding-bottom: 2em;
+}
+
+/* Ubicacion */
+.ubicacion{
+    background-color: #00A8E8;
+    color: white;
+    padding-bottom: 2em;
+}
+.ubicacion_title{
+    text-decoration: underline;
+}
+
+/* Contact */
+.small_icon{
+    height: 2em;
+}
+.contact_item{
+    display: inline-block;
+    margin-left: .25em;
+    margin-right: .25em;
+}
+.no_bullets{
+    list-style: none;
+}
+.contact_text{
+    margin-bottom: 0;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+@media (min-width:300px) {
+    .contact_line{
+        width: 50vw;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+.contact_line{
+    width: 17vw;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
