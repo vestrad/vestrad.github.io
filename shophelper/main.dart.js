@@ -60980,7 +60980,7 @@ P.fh(s==null?null:s.a)
 s=r.a.c
 s.toString
 r.d.push(s)}else P.fh("Null!")},
-O:function(a,b){var s=null,r=E.Ok(s,s,L.cM("Shop Helper - 2",s,s,s,s,s,s,s)),q=T.cz(s,40,s),p=L.cM("Your Shopping",s,s,s,s,A.dA(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,!0,s,s,s,s,s,s,s),s,s),o=T.cz(s,40,s),n=b.X(t.w).f
+O:function(a,b){var s=null,r=E.Ok(s,s,L.cM("Shop Helper",s,s,s,s,s,s,s)),q=T.cz(s,40,s),p=L.cM("Your Shopping",s,s,s,s,A.dA(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,!0,s,s,s,s,s,s,s),s,s),o=T.cz(s,40,s),n=b.X(t.w).f
 return M.vp(r,T.dK(E.vG(T.i9(H.a([q,p,o,M.e7(s,this.MB(),C.q,s,new S.ar(800,1/0,0,1/0),s,s,s,s,s,s,s,n.a.a*0.5),T.cz(s,40,s)],t.D),C.av,C.aH,C.aN),s,C.ah,s,C.k),s,s),E.aa2(L.tl(C.ja,s),!1,new O.a4J(b),new X.cy(K.r6(20),C.v),"New Shopping Trip"),s)},
 MB:function(){var s,r,q=null,p=this.d.length
 if(p<1)return T.dK(L.cM("You have no trips.",q,q,q,q,q,q,q),q,q)
@@ -61036,10 +61036,9 @@ a0G:function(a){var s,r,q,p=null,o=T.cz(p,20,p),n=T.cz(p,20,p),m=t.w,l=a.X(m).f,
 l=M.e7(p,E.ab_(this.d,L.aa8(p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,A.dA(p,p,C.j,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p),"Item Name",p,p,p,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p),j,p,p,A.dA(p,p,C.j,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p)),C.q,p,new S.ar(0,400,0,1/0),p,p,p,p,p,p,p,l.a.a*0.8)
 j=T.cz(p,20,p)
 s=a.X(m).f
-m=a.X(m).f
 r=L.aa8(p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,A.dA(p,p,C.j,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p),"Item Price",p,p,p,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p)
 q=A.dA(p,p,C.j,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p)
-return E.vG(T.i9(H.a([o,C.Dt,n,l,j,M.e7(p,new T.dh(new V.aD(0,0,0,m.e.d),E.ab_(this.e,r,H.a([new F.Bm("$")],k),C.Al,p,q),p),C.q,p,new S.ar(0,400,0,1/0),p,p,p,p,p,p,p,s.a.a*0.8),T.cz(p,20,p),new D.BK(new N.a3N(this,a),p,p,C.q,p,!1,C.Dv,p),T.cz(p,20,p)],t.D),C.av,C.fY,C.e7),p,C.ah,p,C.k)}}
+return E.vG(T.i9(H.a([o,C.Dt,n,l,j,M.e7(p,E.ab_(this.e,r,H.a([new F.Bm("$")],k),C.Al,p,q),C.q,p,new S.ar(0,400,0,1/0),p,p,p,p,p,p,p,s.a.a*0.8),T.cz(p,20,p),new D.BK(new N.a3N(this,a),p,p,C.q,p,!1,C.Dv,p),new T.dh(new V.aD(0,0,0,a.X(m).f.e.d),T.cz(p,20,p),p)],t.D),C.av,C.fY,C.e7),p,C.ah,p,C.k)}}
 N.a3S.prototype={
 $0:function(){var s=this.a
 C.b.iw(s.a.c,this.b)
